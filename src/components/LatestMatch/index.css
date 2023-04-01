@@ -1,0 +1,134 @@
+.latest-match-container {
+  color: white;
+  font-family: 'Bree Serif';
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.latest-match-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card-caption {
+  align-self: flex-start;
+}
+.match-details-logo-container {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: grey; */
+}
+.match-details-part-1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.competing-team-logo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  align-self: center;
+  /* background-color: red; 40% */
+}
+.team-logo {
+  width: 80%;
+}
+
+.competing-team {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.date {
+  font-size: 20px;
+}
+.match-details-part-2 {
+  text-align: right;
+  width: 20%; /* 20 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.innings-heading {
+  font-size: 25px;
+}
+.man-of-match-heading {
+  font-size: 23px;
+}
+
+/* mobile screen */
+.competing-team-logo-sm {
+  display: none;
+}
+
+.team-logo-sm {
+  display: none;
+}
+.for-rcb-competing-team-logo {
+  width: 30%;
+}
+.for-rcb-match-details-part-2 {
+  width: 40%;
+}
+@media (max-width: 1200px) {
+  .match-details-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+  }
+  .competing-team-logo-sm {
+    display: block;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-logo-sm {
+    display: block;
+    width: 100%;
+  }
+  .latest-match-card {
+    flex-direction: column;
+  }
+  .competing-team-logo {
+    display: none;
+  }
+  .competing-team {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .date {
+    font-size: 20px;
+  }
+  .match-details-part-1 {
+    width: 60%;
+  }
+  .innings-heading {
+    font-size: 16px;
+  }
+  .match-details-part-2 {
+    width: 100%;
+    text-align: left;
+  }
+  .man-of-match-heading {
+    font-size: 20px;
+  }
+  p {
+    margin-bottom: 3px;
+  }
+  .inning-details {
+    font-size: 12px;
+  }
+}

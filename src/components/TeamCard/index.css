@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+  color: white;
+  width: 45%;
+  margin: 20px;
+}
+.card-item {
+  border: 3px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff33;
+  align-items: center;
+  border-radius: 20px;
+  height: 200px;
+  padding: 0px 20px;
+}
+.card-img {
+  height: 80%;
+  width: 20%;
+  margin-right: 20px;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 25px;
+  }
+  .link {
+    width: 95%;
+  }
+  .card-item {
+    padding: 0px 5px;
+  }
+  .card-img {
+    height: auto;
+    width: 30%;
+  }
+}
